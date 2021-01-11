@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JQuery Form</title>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="animation.js" type="text/javascript"></script>
+<script src="validation.js" type="text/javascript"></script>
+<link rel="stylesheet" href="csstyles.css" type="text/css" />
+</head>
+<body>
+<h2 style="text-align:center">JQUERY DEMO FORM</h2>
+<form name="JQform" onsubmit="return validateForm()">
+<ul>
+<li class="title">Designation</li>
+<li class="fields">
+<label>*First Name:</label><br />
+<input id="first_name" class="req" type="text" /><br />
+<label>Middle Name:</label></br>
+<input id="middle_name" type="text" /><br />
+<label>Last Name:</label></br>
+<input id="last_name" type="text" /><br />
+<label>*Email:</label></br>
+<input id="email_id" class="req" type="text" /><br />
+</li>
+<li class="title">Location</li>
+<li class="fields">
+<label>*Country:</label><br />
+<input id="country" class="req" type="text" /><br />
+<label>*State:</label><br />
+<input id="state" class="req" type="text" /><br />
+<label>*City:</label><br />
+<input id="city" class="req" type="text" /><br />
+</li>
+<li class="title">Occupation</label></li>
+<li class="field">
+<label>*Identity:</label><br />
+<input id="identity" class="req" type="text" /><br />
+<label>Company:</label><br />
+<input id="company" type="text" /><br />
+<label>Location:</label><br />
+<input id="location" type="text" /><br />
+</li>
+</ul>
+<input type="submit" value="Submit Form" />
+</form>
+</body>
+</html>
